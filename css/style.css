@@ -1,0 +1,246 @@
+@import 'utility.css';
+:root{
+    --primary:#E1D9D1;
+    --black:#000000;
+    --lightwhite:#b4b3b3;
+    --light:#04ffea;
+    --dim:#c29128;
+    --dir:#608283;
+    --lightblack:#302d2d;
+    
+}
+
+body{
+    font-family: 'poppins', sans-serif; /* font ko customize karne ke liye*/
+}
+*{
+    padding: 0;             /*header ke border ko zero karne ke liye bcs touch the desktop*/
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+header{
+    background: var(--dim );  /* header ke background ko dene ke liye */
+    height: 861px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100% );
+}
+
+
+.container{
+    max-width: 1152px;
+    padding:0 15px;  /* top buttom se padding kam karne ke liye*/
+    margin:0 auto;    /* top buttom se zero or header ko center par lane ke liye auto ka user kiye */
+}
+
+header nav .left a{
+    color: var(--primary);  /* link jo h home about resume ko color dene ke liye*/
+    text-decoration: none; /* link ke underline htane ke liye */
+    margin-right: 2rem; /* link  ke beech me space dene ke liye*/
+    text-transform: uppercase;  /* kisi bi font ko capital karne ke liye */
+    transition: all .3s ease;  /* slow me perform ho color change link ka*/
+    
+}
+header nav .left a:hover{
+    color: var(--black);  /* jab cursor kisi bi link par pade to uska color change ho*/
+}
+
+
+header nav {
+    padding: 2rem 0; /* sare header ke link ke upar space dene ke liye*/
+}
+
+header nav .branding{
+    margin-right: 4rem; /* logo or link ke beech me space dene ke liye*/
+}
+
+.Me{
+    padding: 3rem 0;
+}
+
+.Me .left img{
+    width: 682px; /*img ki height ko mng karne ke liye*/
+    margin-left: -6rem;
+    margin-top: 2rem;
+}
+
+.Me .right{
+    color: var(--primary); /*summary ko color dene ke liye*/
+}
+
+.Me .right h6{
+    font-size: 1.6rem;
+    color: var(--black);
+    margin-bottom: 0.5rem;
+}
+
+.Me .right h1{
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.Me .right h1 span{
+    color: var(--black);
+}
+
+.Me .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+.Me .right{
+    margin-top: -5rem;
+}
+
+section{
+    padding: 6rem 0;
+   
+}
+
+section.about .about-me-img{
+    height: 550px; /* photo ki size kam karne ke liye*/
+}
+
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 450;
+    margin-left: 4rem;
+}
+
+section.about h1 span{
+    color: var(--light);
+}
+
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    margin-left: 4rem;
+    color: var(--black);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+section.about a{
+    margin-bottom: 1rem;
+    margin-left: 4rem; 
+    margin-right: -3rem; 
+
+}
+
+section.about .social{
+    display: flex;
+}
+
+section.about .social a{
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius:70;
+    margin-right: -4rem;
+    margin-top: 2rem;
+}
+
+section.about .social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+section.about .social a:hover{
+    background: var(--light);
+    transition: all .3s ease;
+}
+
+section.about h{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    margin-left: 4rem;
+    color: var(--black);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+section.about p1{
+    font-family: 'Lato', sans-serif;
+    margin-left: 4rem;
+    margin-top: -3rem;
+    color: var(--black);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+.secRight{
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 200%;
+}
+.paras{
+    padding: 30px 200px;
+    margin-bottom: 18rem;
+    border: -100px solid red;
+}
+.thumbnail{
+    padding: 0px 0px;
+    margin-bottom: 18rem;
+    border: 56px solid white;
+    width: 100px;
+}
+
+.secRightt{
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

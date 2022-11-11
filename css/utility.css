@@ -1,0 +1,63 @@
+/* jo cheeze kafi time use hogi use hm utility class bnake
+ easy way me use kar sakte hai */
+
+.flex{
+    display: flex;   /* contact button ko ryt side me lane ke liye or <nav ke andar apply karege*/
+}
+
+.items-center{
+    align-items: center; /* sare link or contact button ko center me lane ke liye */
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;  /*button ko size dene ke liye*/
+    font-weight: 600;  /*contact button ko bold karne ke liye*/
+    border:2px solid transparent;
+    outline: none;
+    cursor: pointer;  /*jab cursor contact button pr aye to cursor change ho jaye*/
+    text-transform: uppercase;
+    transition: all .3s ease;
+
+}
+
+.btn-primary{
+    background: var(--black); /*button ke backgrounf ko  color dene ke liye*/
+    color: var(--lightwhite); /*button ke text ke color dene ke liye*/
+}
+
+.btn-primary:hover{
+    background: transparent; /*jab button pr cursor jaye to color chnge ho*/
+    border-color: var(--light);
+    color: var(--light); /*text ka color change ho*/
+}
+
+.btn-secondary{
+    background: var(--primary); /*button ke backgrounf ko  color dene ke liye*/
+    color: var(--black); /*button ke text ke color dene ke liye*/
+}
+.btn-secondary:hover{
+    background: transparent;
+    border-color:var(--light);
+    color: var(--light);
+}
+
+flex-1{
+    flex: 1;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
